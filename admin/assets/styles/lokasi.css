@@ -1,0 +1,91 @@
+ * {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Style Start */
+
+.navbar .container .navbar-nav .nav-item .nav-link.active {
+  font-weight: 400;
+  border-bottom: 1px solid #c44536;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 1px solid #c44536;
+}
+
+.bg-nav {
+  background-color: rgba(255, 241, 241, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* Navbar Style End */
+
+/* Lokasi Section Start */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40%;
+  height: 0;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  border: 0;
+}
+
+#card-alamat-lengkap {
+  transition: all 0.3s ease;
+}
+
+#card-alamat-lengkap:hover {
+  background-color: #f0f0f0;
+  transform: scale(0.99);
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .map-container {
+    padding-bottom: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .map-container {
+    padding-bottom: 100%;
+  }
+}
+
+/* Lokasi Section End */
+
+/* Media Queries For Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+    border-bottom: none;
+  }
+
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+}
+
+/* Media Queries For Mobile */
+@media (max-width: 768px) and (min-width: 300px) {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+    border-bottom: none;
+  }
+
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+}

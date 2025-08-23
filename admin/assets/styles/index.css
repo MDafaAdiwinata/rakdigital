@@ -1,0 +1,55 @@
+ * {
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-container .form-head {
+  width: 21%;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 2rem 2rem;
+}
+
+/* Media Queries For Laptop */
+@media (max-width: 1400px) {
+  .form-container .form-head {
+    width: 40%;
+  }
+}
+
+/* Media Queries For Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .form-container .form-head {
+    width: 60%;
+  }
+}
+
+/* Media Queries For Mobile */
+@media (max-width: 768px) and (min-width: 300px) {
+  .form-container .form-head {
+    width: 90%;
+  }
+}
+
+/* Media Queries For Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+    border-bottom: none;
+  }
+
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+}
+
+/* Media Queries For Mobile */
+@media (max-width: 768px) and (min-width: 300px) {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+    border-bottom: none;
+  }
+
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+}

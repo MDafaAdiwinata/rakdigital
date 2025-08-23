@@ -1,0 +1,53 @@
+ * {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Style Start */
+
+.navbar .container .navbar-nav .nav-item .nav-link.active {
+  font-weight: 400;
+  border-bottom: 1px solid #c44536;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 1px solid #c44536;
+}
+
+.bg-nav {
+  background-color: rgba(255, 241, 241, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* Navbar Style End */
+
+/* Section profil start */
+
+.tombol-aksi a.btn {
+  margin-top: 5rem;
+}
+
+/* Section profil End */
+
+
+/* Media Queries For Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+    border-bottom: none;
+  }
+
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+}
+
+/* Media Queries For Mobile */
+@media (max-width: 768px) and (min-width: 300px) {
+  .navbar .container .navbar-nav .nav-item .nav-link.active {
+    font-weight: 400;
+    border-bottom: none;
+  }
+
+  .navbar .container .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }

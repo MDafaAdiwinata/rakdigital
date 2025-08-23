@@ -1,0 +1,75 @@
+ * {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Card Layanan Style Start */
+
+.card {
+  transition: 0.3s all ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer ;
+}
+
+/* Card Layanan Style End */
+
+/* Footer Style Start */
+
+.section-footer {
+  background-color: #283D3B;
+  padding: 3% 0;
+}
+
+.section-footer .container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Footer Style End */
+
+/* Responsive Media Queries */
+
+/* Media Queries For Laptop */
+@media (max-width: 1400px) {
+  .carousel-item img {
+    height: 800px;
+    object-fit: cover;
+  }
+
+
+}
+
+/* Media Queries For Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .carousel-item img {
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .section-footer {
+    background-color: #283D3B;
+    padding: 3% 0;
+  } 
+}
+
+/* Media Queries For Mobile */
+@media (max-width: 768px) and (min-width: 300px) {
+  .carousel-item img {
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .col-lg-6 img {
+    width: 300px;
+  }
+
+  .section-footer {
+    background-color: #283D3B;
+    padding: 8% 0;
+  }
+}
